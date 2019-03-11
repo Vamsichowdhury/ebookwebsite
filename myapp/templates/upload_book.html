@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block body %}
+{% load crispy_forms_tags %}
+
+
+
+<h2 class=" d-flex justify-content-center">Upload Book </h2>
+<div class="jumbotron container d-flex justify-content-center">
+<form method='POST' enctype='multipart/form-data'>
+	{% csrf_token %}
+	{{ form|crispy }}
+	<button type='submit' class='btn btn-primary'>upload book</button>
+</form>
+
+</div>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block body %}
+
+
+<br>
+<form method='POST'class='container jumbotron'>
+	{% csrf_token %}
+	<div class="col-md-6 offset-md-3">
+		<h2 class="col-md-4 offset-md-2">Login</h2><br>
+	<h5>Enter Username</h5>
+	<input type="text" class="col-sm-8 form-control" name="username" placeholder="enter username">
+	<h5>Enter Password</h5>
+	<input type="password" class="col-sm-8 form-control" name="password" placeholder="enter password"><br>
+	<div class="col-md-4 offset-md-2">
+	<button type="submit" class="d-flex justify-content-center btn btn-secondary">Login</button>
+</div>
+</div>
+</form>
+
+{% endblock %}
