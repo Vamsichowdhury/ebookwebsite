@@ -1,4 +1,4 @@
-# ebookwebsite
+# self-prepared-notes-uploder
 upload and delete book
 # Home Page
 <img src="/images/homePage.PNG">
