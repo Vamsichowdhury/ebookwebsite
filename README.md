@@ -1,4 +1,7 @@
-# self-prepared-notes-uploder
+
+<h3><em>The website is intended to help students to upload their self prepared notes to help each other<em></h3> 
+
+
 upload and delete book
 # Home Page
 <img src="/images/homePage.PNG">
